@@ -83,7 +83,7 @@ where:
 
 ## 🔄 How to Run SensitiveHUE in `patch-anomaly-detector`
 
-This project can be integrated into the [patch-anomaly-detector](https://github.com/YourUsername/patch-anomaly-detector) framework.  
+This project can be integrated into the [patch-anomaly-detector](https://github.com/nanfzq0087/patch-anomaly-detector) framework.  
 Follow these steps to train and evaluate **SensitiveHUE** with the existing unified pipeline.
 1. **Clone the main repository**  
 2. **Add the backbone/ folder**
