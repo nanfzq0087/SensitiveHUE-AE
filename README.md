@@ -79,3 +79,14 @@ where:
 - $$\(x_{i,j}\)$$ = ground truth value of the \(j\)-th channel in the \(i\)-th patch  
 - $$\(\mu_{i,j}\)$$ = reconstructed prediction  
 - $$\(\sigma_{i,j}^2\)$$ = estimated uncertainty (heterogeneous variance)  
+
+
+## 🔄 How to Run SensitiveHUE in `patch-anomaly-detector`
+
+This project can be integrated into the [patch-anomaly-detector](https://github.com/YourUsername/patch-anomaly-detector) framework.  
+Follow these steps to train and evaluate **SensitiveHUE** with the existing unified pipeline.
+1. **Clone the main repository**  
+2. **Add the backbone/ folder**
+3. **Add the SensitiveHUE model file**
+   
+If you encounter any issues while running the model, feel free to contact me.
