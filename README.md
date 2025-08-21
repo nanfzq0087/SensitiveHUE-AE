@@ -67,6 +67,12 @@ SensitiveHUE is a multivariate time series anomaly detection (TSAD) method based
       └────────────────────────────────┘
                       ▼
         Compute NLL-like Anomaly Score:  
+        
+**Training Loss (MTS-NLL form)**： 
+
+$$
+L_{\text{MTSNLL}} = \frac{1}{2} \log(|\boldsymbol{\Sigma}|) + \frac{1}{2}(\boldsymbol{x} - \boldsymbol{\mu})^T \boldsymbol{\Sigma}^{-1} (\boldsymbol{x} - \boldsymbol{\mu})
+$$
 
 
 **Anomaly Scoring (NLL form)**：  
